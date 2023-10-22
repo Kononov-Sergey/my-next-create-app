@@ -1,12 +1,9 @@
 import React from "react";
 import type { NextPage } from "next";
+import MainContent from "../components/sections/mainContent";
 
 const Home: NextPage = () => {
-  return (
-    <div>
-      <h1 className="text-4xl">Hello web!</h1>
-    </div>
-  );
+  return <MainContent />;
 };
 
 export default Home;
