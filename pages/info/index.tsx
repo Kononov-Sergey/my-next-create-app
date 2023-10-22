@@ -1,7 +1,8 @@
 import { FC, PropsWithChildren } from "react";
+import InfoPageMainContent from "../../components/sections/infoPage/InfoPageMainContent";
 
 const Index: FC<PropsWithChildren> = () => {
-  return <div>Index</div>;
+  return <InfoPageMainContent />;
 };
 
 export default Index;

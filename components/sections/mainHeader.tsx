@@ -7,13 +7,13 @@ import { useRouter } from "next/router";
 const MainHeader: FC<PropsWithChildren> = () => {
   const router = useRouter();
   return (
-    <header className="p-4 bg-color-secondary-bg">
+    <header className="p-4">
       <nav className="flex items-center justify-between container mx-auto">
         <Image
           alt="Логотип А.И.Герцена"
           src="/header-logo.png"
-          height={50}
-          width={50}
+          height={70}
+          width={70}
         />
         <div className="flex items-center gap-4">
           <Link
@@ -36,7 +36,7 @@ const MainHeader: FC<PropsWithChildren> = () => {
             )}
             href="/info"
           >
-            Алгоритмы
+            Информация
           </Link>
         </div>
       </nav>
